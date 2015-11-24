@@ -1,0 +1,6 @@
+c:\users\islam_mamayeu@epam.com\documents\visual studio 2015\Projects\Calc\Calc\bin\Debug\Calc.exe.config
+c:\users\islam_mamayeu@epam.com\documents\visual studio 2015\Projects\Calc\Calc\bin\Debug\Calc.exe
+c:\users\islam_mamayeu@epam.com\documents\visual studio 2015\Projects\Calc\Calc\bin\Debug\Calc.pdb
+c:\users\islam_mamayeu@epam.com\documents\visual studio 2015\Projects\Calc\Calc\obj\Debug\Calc.csprojResolveAssemblyReference.cache
+c:\users\islam_mamayeu@epam.com\documents\visual studio 2015\Projects\Calc\Calc\obj\Debug\Calc.exe
+c:\users\islam_mamayeu@epam.com\documents\visual studio 2015\Projects\Calc\Calc\obj\Debug\Calc.pdb
