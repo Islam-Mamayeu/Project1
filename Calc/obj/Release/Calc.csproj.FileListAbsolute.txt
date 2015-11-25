@@ -1,0 +1,5 @@
+C:\Users\Islam_Mamayeu@epam.com\documents\visual studio 2015\Projects\Calc\Calc\bin\Release\Calc.exe.config
+C:\Users\Islam_Mamayeu@epam.com\documents\visual studio 2015\Projects\Calc\Calc\bin\Release\Calc.exe
+C:\Users\Islam_Mamayeu@epam.com\documents\visual studio 2015\Projects\Calc\Calc\bin\Release\Calc.pdb
+C:\Users\Islam_Mamayeu@epam.com\documents\visual studio 2015\Projects\Calc\Calc\obj\Release\Calc.exe
+C:\Users\Islam_Mamayeu@epam.com\documents\visual studio 2015\Projects\Calc\Calc\obj\Release\Calc.pdb

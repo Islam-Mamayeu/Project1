@@ -12,31 +12,71 @@ namespace Calc
         {
             int n = 0;
             int m = 0;
-            Console.WriteLine("Input matrix size :");
-            Console.WriteLine("length of rows :");
-            n = Int32.Parse(Console.ReadLine());
-            Console.WriteLine("length of colums :");
-            m = Int32.Parse(Console.ReadLine());
-            int[,] matrix = new int [n,m];
-            Console.WriteLine("Size of matrix = " + n + "," + m);
 
+            Console.WriteLine("Input matrix size ");
 
-            for(int i=0;i<n;i++)
+            while (true)
             {
-                for(int j=0;j<m;j++)
+
+                Console.WriteLine("length of columns :"); 
+                bool isInt = Int32.TryParse(Console.ReadLine(), out n);
+                Console.WriteLine("length of rows :");
+                isInt = Int32.TryParse(Console.ReadLine(), out m);
+
+                if (isInt)
                 {
-                    Console.Write(i +","+ j +":");
-                    matrix[i,j]= Console.Read();
+                    
+                    int[,] matrix = new int[n, m];
+                    int[,] transpmatrix = new int[m, n];
+
+                    Console.WriteLine("Size of matrix = " + n + "," + m);
+
+
+                    for (int i=0; i < n; i++)
+                    {
+                        for (int j=0; j < m; j++)
+                        {
+                            
+                            Console.Write((i + 1) + "," + (j + 1) + ":");
+                            isInt=Int32.TryParse(Console.ReadLine(), out matrix[i, j]);
+                            if (isInt==false)
+                            {
+                                Console.WriteLine("Digit only!");--j;
+                            }
+                            
+                        }
+                    }
+
+                    Console.WriteLine("Entered matrix:");
+                    for (int j = 0; j < m; j++)
+                    {
+                        for (int i = 0; i < n; i++)
+                        {
+                            Console.Write(" " + matrix[i, j]);
+                        }
+                        Console.WriteLine();
+                    }
+                    Console.WriteLine("Transpose matrix:");
+                    for (int j = 0; j < n; j++)
+                    {
+                        for (int i = 0; i < m; i++)
+                        {
+
+                            transpmatrix[i, j] = matrix[j, i];
+                            Console.Write(" " + transpmatrix[i, j]);
+
+                        }
+                        Console.WriteLine();
+                    }
                 }
-            }
-            for (int i = 1; i <= n; i++)
-            {
-                for (int j = 1; j <= m; j++)
+                else
                 {
-                    Console.Write(matrix[i, j]);
+                    Console.WriteLine("Incorrect length try again!");
 
                 }
+
             }
+
 
 
 
