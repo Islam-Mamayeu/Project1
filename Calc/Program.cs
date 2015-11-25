@@ -13,7 +13,7 @@ namespace Calc
             x:
             Console.WriteLine("Choice the program : ");
             Console.WriteLine("1.Calculator");
-            Console.WriteLine("2.Matrix");
+            Console.WriteLine("2.Transpose a matrix");
             string choice = Console.ReadLine();
             if(choice == "1")
             {
